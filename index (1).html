@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="C:\Users\Eemeli\Downloads\enerim.css">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>ef_dem_production Database</title>
+        <!-- Tell the browser to be responsive to screen width -->
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon.png">
+        <!-- Bootstrap 3.3.5 -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <!-- Ionicons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/6.0.0/esm/ionicons.min.js">
+        <!-- DataTables -->
+        <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">
+        <link rel="stylesheet" href="bower/datatables.net-buttons-bs/css/buttons.bootstrap.min.css">
+        <!-- Code Mirror -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/codemirror.min.css">
+        
+        <!-- 
+            Fonts 
+            <link href='fonts/indieflower/indie-flower.css' rel='stylesheet' type='text/css'>
+            <link href='fonts/source-sans-pro/source-sans-pro.css' rel='stylesheet' type='text/css'>
+        -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;600;800&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,700;1,400&display=swap" rel="stylesheet"> 
+
+        <!-- Theme style -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/admin-lte/3.2.0/css/adminlte.min.css"> 
+        <!-- Salvattore -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/salvattore/1.0.9/salvattore.min.js">
+        <!-- AdminLTE Skins. Choose a skin from the css/skins
+           folder instead of downloading all of them to reduce the load. -->
+        <link rel="stylesheet" href="C:\Users\Eemeli\Downloads\AdminLTE.css">
+        <!-- SchemaSpy -->
+        <link rel="stylesheet" href="schemaSpy.css">
+ 
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="bower/html5shiv/html5shiv.min.js"></script>
+        <script src="bower/respond/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <!-- ADD THE CLASS layout-top-nav TO REMOVE THE SIDEBAR. -->
+    <body class="hold-transition skin-blue layout-top-nav">
+        <div class="wrapper">
+            <!-- Main content -->
+            <!-- Navigation bar -->
+            <div class="topnav">
+                <div class="navbar-header">
+                    <a href="../index.html" class="navbar-brand"><b>ef_dem_production</b> Database</a>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"><i class="fa fa-bars"></i></button>
+                </div>
+
+                <a class="active" href="#Tables">Tables</a>
+                <a href="#Columns.html">Columns</a>
+                <a href="#Constraints.html">Constraints</a>
+                <a href="#Relationships.html">Relationships</a>
+                <a href="#Orphan Tables.html">Orphan Tables</a>
+                <a href="#Anomalies.html">Anomalies</a>
+                <a href="#Routines.html">Routines</a>
+            </div>
+            <!-- Full Width Column -->
+            <div class="content-wrapper">
+                <div class="tables">
+                <h1 style="font-size:1.5vw">Tables</h1>
+                </div>
+                <!-- Content Header (Page header) -->
+                <section class="content-header">
+                    <div class="callout callout-info">
+                        <h4>SchemaSpy Analysis of ef_dem_production</h4>
+                        <p>Generated on Wed Dec 15 11:54 EET 2021</p>
+                    </div>
+                    <div class="XML">
+                        <a href="dev_viewdev_ef_oe0_production2.lys_del_views.xml" title="XML Representation">XML Representation</a>
+                    </div>
+                    <div class="Insertion">
+                        <a href="insertionOrder.txt" title="Useful for loading data into a database">Insertion Order</a><a href="deletionOrder.txt" title="Useful for purging data from a database">Deletion Order</a>
+                    </div>
+                </section>
+                <!-- Main content -->
+                
+                <section class="content">
+                    <div class="row">
+                        <div class="col-md-2 col-sm-4 col-xs-12">
+                            <div class="info-box">
+                                <span class="info-box-icon bg-aqua"><i class="fa fa-table"></i></span>
+                                <div class="info-box-content">
+                                    <span class="info-box-text">TABLES</span>
+                                    <span class="info-box-number">0</span>
+                                </div>
+                                <!-- /.info-box-content -->
+                            </div>
+                            <!-- /.info-box -->
+                        </div>
+                        <!-- /.col -->
+                        <div class="col-md-2 col-sm-4 col-xs-12">
+                            <div class="info-box">
+                                <span class="info-box-icon bg-teal"><i class="fa fa-table"></i></span>
+                                <div class="info-box-content">
+                                    <span class="info-box-text">VIEWS</span>
+                                    <span class="info-box-number">178</span>
+                                </div>
+                                <!-- /.info-box-content -->
+                            </div>
+                            <!-- /.info-box -->
+                        </div>
+                        <!-- /.col -->
+                        <div class="col-md-2 col-sm-4 col-xs-12">
+                            <div class="info-box">
+                                <span class="info-box-icon bg-green"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span></span>
+                                <div class="info-box-content">
+                                    <span class="info-box-text">COLUMNS</span>
+                                    <span class="info-box-number">2794</span>
+                                </div>
+                                <!-- /.info-box-content -->
+                            </div>
+                            <!-- /.info-box -->
+                        </div>
+                        <!-- /.col -->
+                        <div class="col-md-2 col-sm-4 col-xs-12">
+                            <div class="info-box">
+                                <span class="info-box-icon bg-yellow"><i class="ion ion-key"></i></span>
+                                <div class="info-box-content">
+                                    <span class="info-box-text">Constraints</span>
+                                    <span class="info-box-number">0</span>
+                                </div>
+                                <!-- /.info-box-content -->
+                            </div>
+                            <!-- /.info-box -->
+                        </div>
+                        <!-- /.col -->
+                        <div class="col-md-2 col-sm-4 col-xs-12">
+                            <div class="info-box">
+                                <span class="info-box-icon bg-red-active"><i class="fa fa-question" aria-hidden="true"></i></span>
+                                <div class="info-box-content">
+                                    <span class="info-box-text">Anomalies</span>
+                                    <span class="info-box-number">0</span>
+                                </div>
+                                <!-- /.info-box-content -->
+                            </div>
+                            <!-- /.info-box -->
+                        </div>
+                        <!-- /.col -->
+                        <div class="col-md-2 col-sm-4 col-xs-12">
+                            <div class="info-box">
+                                <span class="info-box-icon bg-navy"><i class="fa fa-file-code-o" aria-hidden="true"></i></span>
+                                <div class="info-box-content">
+                                    <span class="info-box-text">Routines</span>
+                                    <span class="info-box-number">0</span>
+                                </div>
+                                <!-- /.info-box-content -->
+                            </div>
+                            <!-- /.info-box -->
+                        </div>
+                        <!-- /.col -->
+                    </div>
+                    <div class="box box-primary">
+                        <div class="box-header with-border">
+                            <h3 class="box-title">Database Properties</h3>
+                            <span class="label label-primary pull-right"><i class="fa fa-cog fa-2x"></i></span>
+                        </div><!-- /.box-header -->
+                        <div class="box-body">
+                            <p>Database Type: PostgreSQL - 12.8</p>
+                        </div><!-- /.box-body -->
+                    </div>
+                    <div class="box box-primary">
+                        
+                        <div class="box-header with-border">
+                            <h3 class="box-title">Tables</h3>
+                            <span class="label label-primary pull-right"><i class="fa fa-database fa-2x"></i></span>
+                        </div>
+                        <div id="button_group_one" class="col-md-6 col-sm-6">
+                            <div class="dt-buttons btn-group">
+                            <a class="btn btn-default" tabindex="0" aria-controls="column_table" href="#"><span>All</span></a>
+                            <a class="btn btn-default" tabindex="0" aria-controls="column_table" href="#"><span>Tables</span></a>
+                            <a class="btn btn-default" tabindex="0" aria-controls="column_table" href="#"><span>Views</span></a>
+                            <a class="btn btn-default buttons-columnVisibility active" tabindex="0" aria-controls="column_table" href="#"><span>Comments</span></a>
+                            </div>
+                        </div>
+                        <div class="search-container">
+                            <form action="/action_page.php">
+                                <label>Search:</label>
+                                <input type="text" name="search" text="Search:">
+                            </form>
+                        </div>
+                        <!-- /.box-header -->
+                        <div class="box-body">
+                            <div class="box-body">
+                                <table id="column_table" class="table table-bordered table-striped dataTable" role="grid">
+                                    <thead align='left'>
+                                        <tr>
+                                            <th>Table</th>
+                                            <th>Type</th>
+                                            <th>Column</th>
+                                            <th>Type</th>
+                                            <th>Size</th>
+                                            <th title='Are nulls allowed?'>Nullable</th>
+                                            <th title='Is column automatically updated?'>Auto</th>
+                                            <th title='Default value'>Default</th>
+                                            <th title='Comments' class="toggle"><span>Comments</span></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody></tbody>
+                                </table>
+                            </div>
+                        <!-- /.box-body -->
+                    </div>
+                </section>
+                <!-- /.content -->
+
+            </div>
+
+            
+            <!-- /.content-wrapper -->
+
+            <!-- FOOTER CHANGES/MUUTOKSET -->
+            <footer class="main-footer">
+                <div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <div class="col-md-2"><img src="enerimEmblem.png" height="38px"> </div> 
+                            <div class="col-md-10" style="vertical-align: center;">Enerim Oy, 2022 <br/>
+                                Generated by <a href="http://schemaspy.org/" class="logo-text"><i class="fa fa-database"></i> SchemaSpy 6.1.0</a></div>
+                        </div>
+                         </div>
+                    <div class="col-md-7"><p class="text-right" style="padding-top:5px;">  <text style="color:red;font-size:18px"><strong> CONFIDENTIAL </strong></p>  </div>
+                  </div>
+			   </div>
+                <!-- /.container -->
+            </footer>
+            <!-- /FOOTER MUUTOKSET -->
+        </div>
+        <!-- ./wrapper -->
+
+        <!-- jQuery 2.2.3 -->
+        <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+        <script
+			  src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+			  integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
+			  crossorigin="anonymous"></script>
+        <!-- Bootstrap 3.3.5 -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <!-- DataTables -->
+        <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+        <script src="https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap4.min.js"></script>
+        <script src="https://cdn.datatables.net/buttons/2.2.3/js/dataTables.buttons.min.js"></script>
+        <script src="https://cdn.datatables.net/buttons/2.0.1/js/buttons.bootstrap.min.js"></script>
+        <script src="https://cdn.datatables.net/buttons/2.2.3/js/buttons.html5.min.js"></script>
+        <script src="https://cdn.datatables.net/buttons/2.2.3/js/buttons.print.min.js"></script>
+        <script src="https://cdn.datatables.net/buttons/2.2.3/js/buttons.colVis.min.js"></script>
+        <!-- SheetJS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+        <!-- pdfmake -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.6/pdfmake.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.6/vfs_fonts.js"></script>
+        <!-- SlimScroll -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-slimScroll/1.3.8/jquery.slimscroll.min.js"></script>
+        <!-- FastClick -->
+        <script src="bower/admin-lte/plugins/fastclick/fastclick.js"></script>
+        <!-- Salvattore -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/salvattore/1.0.9/salvattore.min.js"></script>
+        <!-- AnchorJS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.3.1/anchor.min.js"></script>
+        <!-- CodeMirror -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/codemirror.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/mode/sql/sql.min.js"></script>
+        <!-- AdminLTE App -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/admin-lte/3.2.0/js/adminlte.min.js"></script>
+        <script src=""></script>
+        <script src="schemaSpy.js"></script>
+    </body>
+</html>
